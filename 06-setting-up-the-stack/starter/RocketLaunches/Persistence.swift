@@ -50,6 +50,7 @@ struct PersistenceController {
     return result
   }()
 
+  /// Container we are adding for this test PR
   let container: NSPersistentContainer
 
   init(inMemory: Bool = false) {
